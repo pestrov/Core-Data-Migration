@@ -15,4 +15,12 @@
 @dynamic name;
 @dynamic ads;
 
++ (Publisher *)initPublisherNamed:(NSString *)name inManagedContext:(NSManagedObjectContext *)context
+{
+  Publisher *newPublisher = [NSEntityDescription insertNewObjectForEntityForName:@"Publisher" inManagedObjectContext:context];
+  newPublisher.name = name;
+  return newPublisher;
+  
+}
+
 @end

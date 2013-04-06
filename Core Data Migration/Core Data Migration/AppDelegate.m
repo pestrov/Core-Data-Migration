@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "NPListViewController.h"
+#import "NPCoreDataPrepopulator.h"
 
 @implementation AppDelegate
 
@@ -17,7 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  
+  if (![[NSUserDefaults standardUserDefaults]valueForKey:@"FirstLaunch"]) {
+    //Create something if we have nothing
+    [[[NPCoreDataPrepopulator alloc]init] createdDataBaseFromScratch];
+    [[NSUserDefaults standardUserDefaults]setValue:[NSDate date] forKey:@"FirstLaunch"];
+    [[NSUserDefaults standardUserDefaults]synchronize];
+  }
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   // Override point for customization after application launch.
   NPListViewController *mainListVC = [[NPListViewController alloc]init];

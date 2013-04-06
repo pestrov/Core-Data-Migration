@@ -18,6 +18,7 @@
 @property (nonatomic, retain) NSNumber * price;
 @property (nonatomic, strong) Publisher *publisher;
 
++ (Ad *)initAdWithPrice:(int)price andDescription:(NSString *)description inManagedContext:(NSManagedObjectContext *)context;
 + (NSArray *)allAdsInManagedContext:(NSManagedObjectContext *)context;
 
 @end

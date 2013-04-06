@@ -15,6 +15,9 @@
 
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSSet *ads;
+
++ (Publisher *)initPublisherNamed:(NSString *)name inManagedContext:(NSManagedObjectContext *)context;
+
 @end
 
 @interface Publisher (CoreDataGeneratedAccessors)

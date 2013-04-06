@@ -21,6 +21,7 @@
 		901A7E8A170EE3CF00347732 /* NPListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901A7E89170EE3CF00347732 /* NPListViewController.m */; };
 		901A7E8E170F02FF00347732 /* Ad.m in Sources */ = {isa = PBXBuildFile; fileRef = 901A7E8D170F02FF00347732 /* Ad.m */; };
 		901A7E911710209F00347732 /* Publisher.m in Sources */ = {isa = PBXBuildFile; fileRef = 901A7E901710209F00347732 /* Publisher.m */; };
+		901A7E94171025EC00347732 /* NPCoreDataPrepopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 901A7E93171025EC00347732 /* NPCoreDataPrepopulator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		901A7E8D170F02FF00347732 /* Ad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ad.m; sourceTree = "<group>"; };
 		901A7E8F1710209F00347732 /* Publisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Publisher.h; sourceTree = "<group>"; };
 		901A7E901710209F00347732 /* Publisher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Publisher.m; sourceTree = "<group>"; };
+		901A7E92171025EC00347732 /* NPCoreDataPrepopulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPCoreDataPrepopulator.h; sourceTree = "<group>"; };
+		901A7E93171025EC00347732 /* NPCoreDataPrepopulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPCoreDataPrepopulator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 		901A7E6F170EE01200347732 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				901A7E92171025EC00347732 /* NPCoreDataPrepopulator.h */,
+				901A7E93171025EC00347732 /* NPCoreDataPrepopulator.m */,
 				901A7E70170EE01200347732 /* Core Data Migration-Info.plist */,
 				901A7E71170EE01200347732 /* InfoPlist.strings */,
 				901A7E74170EE01200347732 /* main.m */,
@@ -201,6 +206,7 @@
 				901A7E8A170EE3CF00347732 /* NPListViewController.m in Sources */,
 				901A7E8E170F02FF00347732 /* Ad.m in Sources */,
 				901A7E911710209F00347732 /* Publisher.m in Sources */,
+				901A7E94171025EC00347732 /* NPCoreDataPrepopulator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

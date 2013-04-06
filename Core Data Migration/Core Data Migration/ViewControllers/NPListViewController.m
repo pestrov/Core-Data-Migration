@@ -59,7 +59,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
   static NSString *CellIdentifier = @"Cell";
-  UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+  UITableViewCell *cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
   cell.textLabel.text = [self.ads[indexPath.row] adDescription];
   cell.detailTextLabel.text = [[self.ads[indexPath.row] price]stringValue];
   
