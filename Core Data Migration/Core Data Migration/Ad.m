@@ -14,6 +14,7 @@
 @dynamic publicationDate;
 @dynamic adDescription;
 @dynamic price;
+@dynamic publisher;
 
 + (NSArray *)allAdsInManagedContext:(NSManagedObjectContext *)context
 {

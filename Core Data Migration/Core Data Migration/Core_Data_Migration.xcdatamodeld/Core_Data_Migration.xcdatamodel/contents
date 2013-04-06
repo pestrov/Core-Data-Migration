@@ -4,8 +4,14 @@
         <attribute name="adDescription" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="price" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="publicationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="publisher" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Publisher" inverseName="ads" inverseEntity="Publisher" syncable="YES"/>
+    </entity>
+    <entity name="Publisher" representedClassName="Publisher" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="ads" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Ad" inverseName="publisher" inverseEntity="Ad" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Ad" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Ad" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Publisher" positionX="160" positionY="192" width="128" height="75"/>
     </elements>
 </model>
