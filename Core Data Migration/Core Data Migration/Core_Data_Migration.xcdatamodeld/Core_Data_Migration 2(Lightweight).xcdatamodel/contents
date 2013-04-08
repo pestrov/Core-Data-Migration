@@ -8,6 +8,7 @@
     </entity>
     <entity name="Publisher" representedClassName="Publisher" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <relationship name="ads" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Ad" inverseName="publisher" inverseEntity="Ad" syncable="YES"/>
     </entity>
     <elements>

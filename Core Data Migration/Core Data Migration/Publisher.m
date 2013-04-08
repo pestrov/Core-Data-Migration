@@ -13,6 +13,7 @@
 @implementation Publisher
 
 @dynamic name;
+@dynamic rating;
 @dynamic ads;
 
 + (Publisher *)initPublisherNamed:(NSString *)name inManagedContext:(NSManagedObjectContext *)context

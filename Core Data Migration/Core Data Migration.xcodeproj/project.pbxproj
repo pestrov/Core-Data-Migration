@@ -22,6 +22,8 @@
 		901A7E8E170F02FF00347732 /* Ad.m in Sources */ = {isa = PBXBuildFile; fileRef = 901A7E8D170F02FF00347732 /* Ad.m */; };
 		901A7E911710209F00347732 /* Publisher.m in Sources */ = {isa = PBXBuildFile; fileRef = 901A7E901710209F00347732 /* Publisher.m */; };
 		901A7E94171025EC00347732 /* NPCoreDataPrepopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 901A7E93171025EC00347732 /* NPCoreDataPrepopulator.m */; };
+		90BAA2CC1713443B00B448ED /* NPSingleAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BAA2CA1713443B00B448ED /* NPSingleAdViewController.m */; };
+		90BAA2CD1713443B00B448ED /* NPSingleAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90BAA2CB1713443B00B448ED /* NPSingleAdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,10 @@
 		901A7E901710209F00347732 /* Publisher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Publisher.m; sourceTree = "<group>"; };
 		901A7E92171025EC00347732 /* NPCoreDataPrepopulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPCoreDataPrepopulator.h; sourceTree = "<group>"; };
 		901A7E93171025EC00347732 /* NPCoreDataPrepopulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPCoreDataPrepopulator.m; sourceTree = "<group>"; };
+		90BAA2C81713410700B448ED /* Core_Data_Migration 2(Lightweight).xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Core_Data_Migration 2(Lightweight).xcdatamodel"; sourceTree = "<group>"; };
+		90BAA2C91713443B00B448ED /* NPSingleAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NPSingleAdViewController.h; path = ViewControllers/NPSingleAdViewController.h; sourceTree = "<group>"; };
+		90BAA2CA1713443B00B448ED /* NPSingleAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NPSingleAdViewController.m; path = ViewControllers/NPSingleAdViewController.m; sourceTree = "<group>"; };
+		90BAA2CB1713443B00B448ED /* NPSingleAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NPSingleAdViewController.xib; path = ViewControllers/NPSingleAdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +109,8 @@
 				901A7E901710209F00347732 /* Publisher.m */,
 				901A7E8C170F02FF00347732 /* Ad.h */,
 				901A7E8D170F02FF00347732 /* Ad.m */,
-				901A7E6F170EE01200347732 /* Supporting Files */,
 				901A7E8B170EE3DE00347732 /* View Controllers */,
+				901A7E6F170EE01200347732 /* Supporting Files */,
 			);
 			path = "Core Data Migration";
 			sourceTree = "<group>";
@@ -130,6 +136,9 @@
 			children = (
 				901A7E88170EE3CF00347732 /* NPListViewController.h */,
 				901A7E89170EE3CF00347732 /* NPListViewController.m */,
+				90BAA2C91713443B00B448ED /* NPSingleAdViewController.h */,
+				90BAA2CA1713443B00B448ED /* NPSingleAdViewController.m */,
+				90BAA2CB1713443B00B448ED /* NPSingleAdViewController.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -190,6 +199,7 @@
 				901A7E7B170EE01200347732 /* Default.png in Resources */,
 				901A7E7D170EE01200347732 /* Default@2x.png in Resources */,
 				901A7E7F170EE01200347732 /* Default-568h@2x.png in Resources */,
+				90BAA2CD1713443B00B448ED /* NPSingleAdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +217,7 @@
 				901A7E8E170F02FF00347732 /* Ad.m in Sources */,
 				901A7E911710209F00347732 /* Publisher.m in Sources */,
 				901A7E94171025EC00347732 /* NPCoreDataPrepopulator.m in Sources */,
+				90BAA2CC1713443B00B448ED /* NPSingleAdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +334,7 @@
 				901A7E87170EE01300347732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -330,9 +342,10 @@
 		901A7E80170EE01300347732 /* Core_Data_Migration.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				90BAA2C81713410700B448ED /* Core_Data_Migration 2(Lightweight).xcdatamodel */,
 				901A7E81170EE01300347732 /* Core_Data_Migration.xcdatamodel */,
 			);
-			currentVersion = 901A7E81170EE01300347732 /* Core_Data_Migration.xcdatamodel */;
+			currentVersion = 90BAA2C81713410700B448ED /* Core_Data_Migration 2(Lightweight).xcdatamodel */;
 			path = Core_Data_Migration.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
