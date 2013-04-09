@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "Ad.h"
 #import "Publisher.h"
+#import "Person.h"
+#import "Company.h"
 @interface NPSingleAdViewController : UIViewController
 
 - (NPSingleAdViewController *)initWithAd:(Ad *)ad;

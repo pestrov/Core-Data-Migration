@@ -14,6 +14,8 @@
 @property IBOutlet UILabel *ratingLabel;
 @property IBOutlet UILabel *publisherLabel;
 @property IBOutlet UILabel *adLabel;
+@property IBOutlet UILabel *ageLabel;
+@property IBOutlet UILabel *expLabel;
 
 @end
 
@@ -33,6 +35,11 @@
   self.adLabel.text = self.currentAd.adDescription;
   self.publisherLabel.text = self.currentAd.publisher.fullname;
   self.ratingLabel.text = [NSString stringWithFormat:@"Publisher rating: %@",self.currentAd.publisher.rating];
+  
+  if ([self.currentAd.publisher isKindOfClass:[Person class]])
+    self.ageLabel.text = [NSString stringWithFormat:@"Age: %@",[self.currentAd.publisher valueForKey:@"age"]];
+  else
+    self.expLabel.text = [NSString stringWithFormat:@"Exp: %@",[self.currentAd.publisher valueForKey:@"experience"]];
     // Do any additional setup after loading the view from its nib.
 }
 
