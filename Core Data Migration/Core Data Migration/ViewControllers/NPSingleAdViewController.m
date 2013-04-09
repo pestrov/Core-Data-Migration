@@ -31,7 +31,7 @@
 {
     [super viewDidLoad];
   self.adLabel.text = self.currentAd.adDescription;
-  self.publisherLabel.text = self.currentAd.publisher.name;
+  self.publisherLabel.text = self.currentAd.publisher.fullname;
   self.ratingLabel.text = [NSString stringWithFormat:@"Publisher rating: %@",self.currentAd.publisher.rating];
     // Do any additional setup after loading the view from its nib.
 }

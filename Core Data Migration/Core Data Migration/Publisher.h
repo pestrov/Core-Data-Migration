@@ -13,7 +13,7 @@
 
 @interface Publisher : NSManagedObject
 
-@property (nonatomic, retain) NSString * name;
+@property (nonatomic, retain) NSString * fullname;
 @property (nonatomic, retain) NSNumber * rating;
 @property (nonatomic, retain) NSSet *ads;
 

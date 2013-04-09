@@ -12,14 +12,14 @@
 
 @implementation Publisher
 
-@dynamic name;
+@dynamic fullname;
 @dynamic rating;
 @dynamic ads;
 
 + (Publisher *)initPublisherNamed:(NSString *)name inManagedContext:(NSManagedObjectContext *)context
 {
   Publisher *newPublisher = [NSEntityDescription insertNewObjectForEntityForName:@"Publisher" inManagedObjectContext:context];
-  newPublisher.name = name;
+  newPublisher.fullname = name;
   return newPublisher;
   
 }
