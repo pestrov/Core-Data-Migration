@@ -375,7 +375,7 @@
 				90BAA2CE171409E500B448ED /* Core_Data_Migration 3(Mapping).xcdatamodel */,
 				901A7E81170EE01300347732 /* Core_Data_Migration.xcdatamodel */,
 			);
-			currentVersion = 90BAA2C81713410700B448ED /* Core_Data_Migration 2(Lightweight).xcdatamodel */;
+			currentVersion = 90BAA2CE171409E500B448ED /* Core_Data_Migration 3(Mapping).xcdatamodel */;
 			path = Core_Data_Migration.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
