@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12D78" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Ad" representedClassName="Ad" syncable="YES">
+        <attribute name="adDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="publicationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="country" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Country" inverseName="ads" inverseEntity="Country" syncable="YES"/>
+        <relationship name="publisher" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Publisher" inverseName="ads" inverseEntity="Publisher" syncable="YES"/>
+    </entity>
+    <entity name="Company" representedClassName="Company" parentEntity="Publisher" syncable="YES">
+        <attribute name="experience" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Country" representedClassName="Country" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="ads" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Ad" inverseName="country" inverseEntity="Ad" syncable="YES"/>
+    </entity>
+    <entity name="Person" representedClassName="Person" parentEntity="Publisher" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Publisher" representedClassName="Publisher" syncable="YES">
+        <attribute name="fullname" optional="YES" attributeType="String" elementID="name" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="ads" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Ad" inverseName="publisher" inverseEntity="Ad" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Ad" positionX="378" positionY="171" width="128" height="120"/>
+        <element name="Company" positionX="16" positionY="378" width="128" height="58"/>
+        <element name="Country" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Person" positionX="259" positionY="378" width="128" height="58"/>
+        <element name="Publisher" positionX="142" positionY="189" width="128" height="90"/>
+    </elements>
+</model>

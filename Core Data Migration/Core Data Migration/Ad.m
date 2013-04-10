@@ -15,6 +15,7 @@
 @dynamic adDescription;
 @dynamic price;
 @dynamic publisher;
+@dynamic country;
 
 + (Ad *)initAdWithPrice:(int)price andDescription:(NSString *)description inManagedContext:(NSManagedObjectContext *)context
 {

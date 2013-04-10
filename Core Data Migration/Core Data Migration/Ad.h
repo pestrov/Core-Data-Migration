@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@class Publisher;
+@class Publisher, Country;
 
 @interface Ad : NSManagedObject
 
@@ -17,6 +17,7 @@
 @property (nonatomic, retain) NSString * adDescription;
 @property (nonatomic, retain) NSNumber * price;
 @property (nonatomic, strong) Publisher *publisher;
+@property (nonatomic, strong) Country *country;
 
 + (Ad *)initAdWithPrice:(int)price andDescription:(NSString *)description inManagedContext:(NSManagedObjectContext *)context;
 + (NSArray *)allAdsInManagedContext:(NSManagedObjectContext *)context;

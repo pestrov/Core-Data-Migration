@@ -11,6 +11,7 @@
 #import "Publisher.h"
 #import "Person.h"
 #import "Company.h"
+#import "Country.h"
 @interface NPSingleAdViewController : UIViewController
 
 - (NPSingleAdViewController *)initWithAd:(Ad *)ad;

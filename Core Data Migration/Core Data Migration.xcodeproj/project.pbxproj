@@ -22,12 +22,15 @@
 		901A7E8E170F02FF00347732 /* Ad.m in Sources */ = {isa = PBXBuildFile; fileRef = 901A7E8D170F02FF00347732 /* Ad.m */; };
 		901A7E911710209F00347732 /* Publisher.m in Sources */ = {isa = PBXBuildFile; fileRef = 901A7E901710209F00347732 /* Publisher.m */; };
 		901A7E94171025EC00347732 /* NPCoreDataPrepopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 901A7E93171025EC00347732 /* NPCoreDataPrepopulator.m */; };
+		907B495E1715E8FA001236E1 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 907B495D1715E8FA001236E1 /* Country.m */; };
+		907B49601715EB23001236E1 /* Mapping from 3 to 4.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 907B495F1715EB23001236E1 /* Mapping from 3 to 4.xcmappingmodel */; };
 		90BAA2CC1713443B00B448ED /* NPSingleAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BAA2CA1713443B00B448ED /* NPSingleAdViewController.m */; };
 		90BAA2CD1713443B00B448ED /* NPSingleAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90BAA2CB1713443B00B448ED /* NPSingleAdViewController.xib */; };
 		90BAA2D117140BA400B448ED /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BAA2D017140BA400B448ED /* Company.m */; };
 		90BAA2D417140BA500B448ED /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BAA2D317140BA500B448ED /* Person.m */; };
 		90BAA2D617140EF100B448ED /* Mapping from 2 to 3.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 90BAA2D517140EF100B448ED /* Mapping from 2 to 3.xcmappingmodel */; };
 		90BAA2D917141A8F00B448ED /* Mapping from 1 to 3.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 90BAA2D817141A8F00B448ED /* Mapping from 1 to 3.xcmappingmodel */; };
+		90BAA2DC17141DF000B448ED /* NPToCountryMigrationPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BAA2DB17141DF000B448ED /* NPToCountryMigrationPolicy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		901A7E901710209F00347732 /* Publisher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Publisher.m; sourceTree = "<group>"; };
 		901A7E92171025EC00347732 /* NPCoreDataPrepopulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPCoreDataPrepopulator.h; sourceTree = "<group>"; };
 		901A7E93171025EC00347732 /* NPCoreDataPrepopulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPCoreDataPrepopulator.m; sourceTree = "<group>"; };
+		907B495C1715E8FA001236E1 /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		907B495D1715E8FA001236E1 /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
+		907B495F1715EB23001236E1 /* Mapping from 3 to 4.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = "Mapping from 3 to 4.xcmappingmodel"; sourceTree = "<group>"; };
 		90BAA2C81713410700B448ED /* Core_Data_Migration 2(Lightweight).xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Core_Data_Migration 2(Lightweight).xcdatamodel"; sourceTree = "<group>"; };
 		90BAA2C91713443B00B448ED /* NPSingleAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NPSingleAdViewController.h; path = ViewControllers/NPSingleAdViewController.h; sourceTree = "<group>"; };
 		90BAA2CA1713443B00B448ED /* NPSingleAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NPSingleAdViewController.m; path = ViewControllers/NPSingleAdViewController.m; sourceTree = "<group>"; };
@@ -65,6 +71,9 @@
 		90BAA2D317140BA500B448ED /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		90BAA2D517140EF100B448ED /* Mapping from 2 to 3.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = "Mapping from 2 to 3.xcmappingmodel"; sourceTree = "<group>"; };
 		90BAA2D817141A8F00B448ED /* Mapping from 1 to 3.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = "Mapping from 1 to 3.xcmappingmodel"; sourceTree = "<group>"; };
+		90BAA2DA17141DF000B448ED /* NPToCountryMigrationPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPToCountryMigrationPolicy.h; sourceTree = "<group>"; };
+		90BAA2DB17141DF000B448ED /* NPToCountryMigrationPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPToCountryMigrationPolicy.m; sourceTree = "<group>"; };
+		90BAA2DD1714218800B448ED /* Core_Data_Migration 4(Manual).xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Core_Data_Migration 4(Manual).xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +127,9 @@
 				901A7E80170EE01300347732 /* Core_Data_Migration.xcdatamodeld */,
 				90BAA2D817141A8F00B448ED /* Mapping from 1 to 3.xcmappingmodel */,
 				90BAA2D517140EF100B448ED /* Mapping from 2 to 3.xcmappingmodel */,
+				907B495F1715EB23001236E1 /* Mapping from 3 to 4.xcmappingmodel */,
+				90BAA2DA17141DF000B448ED /* NPToCountryMigrationPolicy.h */,
+				90BAA2DB17141DF000B448ED /* NPToCountryMigrationPolicy.m */,
 				90BAA2D71714189100B448ED /* Core Data Objects */,
 				901A7E8B170EE3DE00347732 /* View Controllers */,
 				901A7E6F170EE01200347732 /* Supporting Files */,
@@ -164,6 +176,8 @@
 				90BAA2D317140BA500B448ED /* Person.m */,
 				90BAA2CF17140BA400B448ED /* Company.h */,
 				90BAA2D017140BA400B448ED /* Company.m */,
+				907B495C1715E8FA001236E1 /* Country.h */,
+				907B495D1715E8FA001236E1 /* Country.m */,
 			);
 			name = "Core Data Objects";
 			sourceTree = "<group>";
@@ -247,6 +261,9 @@
 				90BAA2D417140BA500B448ED /* Person.m in Sources */,
 				90BAA2D617140EF100B448ED /* Mapping from 2 to 3.xcmappingmodel in Sources */,
 				90BAA2D917141A8F00B448ED /* Mapping from 1 to 3.xcmappingmodel in Sources */,
+				90BAA2DC17141DF000B448ED /* NPToCountryMigrationPolicy.m in Sources */,
+				907B495E1715E8FA001236E1 /* Country.m in Sources */,
+				907B49601715EB23001236E1 /* Mapping from 3 to 4.xcmappingmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,10 +389,11 @@
 			isa = XCVersionGroup;
 			children = (
 				90BAA2C81713410700B448ED /* Core_Data_Migration 2(Lightweight).xcdatamodel */,
+				90BAA2DD1714218800B448ED /* Core_Data_Migration 4(Manual).xcdatamodel */,
 				90BAA2CE171409E500B448ED /* Core_Data_Migration 3(Mapping).xcdatamodel */,
 				901A7E81170EE01300347732 /* Core_Data_Migration.xcdatamodel */,
 			);
-			currentVersion = 90BAA2CE171409E500B448ED /* Core_Data_Migration 3(Mapping).xcdatamodel */;
+			currentVersion = 90BAA2DD1714218800B448ED /* Core_Data_Migration 4(Manual).xcdatamodel */;
 			path = Core_Data_Migration.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

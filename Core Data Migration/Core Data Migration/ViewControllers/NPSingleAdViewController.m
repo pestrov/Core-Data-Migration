@@ -16,6 +16,7 @@
 @property IBOutlet UILabel *adLabel;
 @property IBOutlet UILabel *ageLabel;
 @property IBOutlet UILabel *expLabel;
+@property IBOutlet UILabel *countryLabel;
 
 @end
 
@@ -35,6 +36,7 @@
   self.adLabel.text = self.currentAd.adDescription;
   self.publisherLabel.text = self.currentAd.publisher.fullname;
   self.ratingLabel.text = [NSString stringWithFormat:@"Publisher rating: %@",self.currentAd.publisher.rating];
+  self.countryLabel.text = self.currentAd.country.name;
   
   if ([self.currentAd.publisher isKindOfClass:[Person class]])
     self.ageLabel.text = [NSString stringWithFormat:@"Age: %@",[self.currentAd.publisher valueForKey:@"age"]];
